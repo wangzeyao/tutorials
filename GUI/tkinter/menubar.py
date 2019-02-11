@@ -7,12 +7,12 @@ window.title('Menu bar')
 window.geometry('300x300')
 
 var1 = tk.StringVar()
-### 定义label
+# 定义label
 label = tk.Label(window,
                  textvariable=var1,
                  bg='yellow')
 label.pack()
-### 定义命令
+# 定义命令
 counter = 0
 
 
@@ -22,7 +22,7 @@ def do_job():
     counter += 1
 
 
-### 定义menu bar
+# 定义menu bar
 menu_bar = tk.Menu(window)
 
 # 定义file menu
@@ -40,7 +40,7 @@ file_menu.add_command(label='Exit',
 menu_bar.add_cascade(label='file',
                      menu=file_menu  # 将filemenu加入menubar
                      )
-### 创建sub menu
+# 创建sub menu
 sub_menu = tk.Menu(file_menu,
                    tearoff=0)
 file_menu.add_cascade(label='Import',
@@ -51,6 +51,5 @@ sub_menu.add_command(label='import image',
 
 # 将menu bar 加到window中。把这个window的menu变成我们定义的menubar
 window.config(menu=menu_bar)
-
 
 window.mainloop()

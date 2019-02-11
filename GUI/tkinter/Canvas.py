@@ -1,16 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 10 11:06:21 2019
-
-@author: WANGZEYAO
-"""
-
 import tkinter as tk
 
 window = tk.Tk()
 window.title('Canvas')
 window.geometry('400x400')
-
 
 # 创建canvas
 
