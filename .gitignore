@@ -10,3 +10,13 @@ numpy_pandas/.idea/modules.xml
 numpy_pandas/.idea/numpy_pandas.iml
 numpy_pandas/.idea/vcs.xml
 numpy_pandas/numpy/.vscode/settings.json
+leetcode/.idea/leetcode.iml
+leetcode/.idea/misc.xml
+leetcode/.idea/modules.xml
+leetcode/.idea/vcs.xml
+leetcode/.idea/workspace.xml
+pytest/.idea/misc.xml
+pytest/.idea/modules.xml
+pytest/.idea/pytest.iml
+pytest/.idea/vcs.xml
+pytest/.idea/workspace.xml
